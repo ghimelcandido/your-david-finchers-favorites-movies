@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Favorite David Fincher Movies!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <header>
+
+            <h1>List your favorites <br> David Fincher's movies</h1>
+            <div class="search">
+                <input id="input-search" type="text" placeholder="Search">
+                <button>&oplus;</button>
+            </div>
+
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>IMDb</th>
+                    <th>Year</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="movieSelected">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg"
+                            alt="poster">
+                        <p>Gone Girl</p>
+                    </td>
+                    <td class="imdbRating">8.1</td>
+                    <td class="movieYear">2014</td>
+                    <td class="buttonRemove"><button>Remove</button></td>
+                </tr>
+
+                <tr>
+                    <td class="movieSelected">
+                        <img src="https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+                            alt="poster">
+                        <p>The Social Network</p>
+                    </td>
+                    <td class="imdbRating">7.8</td>
+                    <td class="movieYear">2010</td>
+                    <td class="buttonRemove"><button>Remove</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
